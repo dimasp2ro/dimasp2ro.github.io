@@ -1,0 +1,164 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.content{
+		width: 600px;
+	}
+	.l_side{
+		width: 225px;
+	}
+	.m_posts{
+		width: 375px;
+	}
+	.search {
+		width: 316px;
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		.search {
+    	width: 266px;
+		}
+		.post{
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+		.m_posts h1{
+			margin-left: 25px;
+		}
+		.content{
+			width: 481px;
+		}
+		.img_dscr{
+			top: 140px;
+		}
+		.l_side {
+			width: 186px;
+		}
+		.m_posts{
+			width: 325px;
+		}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+		.m_posts{
+			width: 500px;
+			float: right;
+		}
+		.l_side {
+			width: 268px;
+		}
+		.p_m {
+			width: 65%;
+		}
+		.content{
+			width: 768px;
+		}
+		.c_article p i{
+			top: 310px;
+		}
+		.img_dscr {
+			top: 166px;
+		}
+		.p_more{
+			width: 45%;
+		}
+		.search {
+    width: 442px;
+}
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+
+		.l_side {
+			width: 480px;
+			height: 550px;
+		}
+		.p_m {
+			width: 50%;
+		}
+		.l_side ul li a i{
+			margin-left: 100px;
+		}
+		.search {
+    width: 421px;
+  }
+		.m_posts {
+			width: 479px;
+		}
+		.content {
+			width: 480px;
+		}
+		.img_dscr {
+			top: 142px;
+		}
+		.c_article p i{
+			top: 334px;
+		}
+
+		.c_pictures ul {
+			margin-left: 0px;
+		}
+		.c_pictures li {
+			margin-right: 15px;
+		}
+
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 320px) {
+			.l_side {
+				width: 320px;
+				height: 540px;
+			}
+			.l_side ul li a i{
+				margin-left: 65px;
+			}
+			.m_posts {
+				width: 320px;
+			}
+			.search {
+				width: 262px;
+			}
+			.content {
+				width: 320px;
+			}
+			.c_article p i {
+				top: 385px;
+			}
+			.c_pictures li {
+				margin-right: 4px;
+			}
+
+		}
+
+
+		/*==========  Mobile First Method  ==========*/
+
+		/* Custom, iPhone Retina */
+		@media only screen and (min-width : 320px) {
+
+		}
+
+		/* Extra Small Devices, Phones */
+		@media only screen and (min-width : 480px) {
+
+		}
+
+		/* Small Devices, Tablets */
+		@media only screen and (min-width : 768px) {
+
+		}
+
+		/* Medium Devices, Desktops */
+		@media only screen and (min-width : 992px) {
+
+		}
+
+		/* Large Devices, Wide Screens */
+		@media only screen and (min-width : 1200px) {
+
+		}
